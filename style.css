@@ -1,7 +1,8 @@
 body{
-    background-color: aquamarine;
+    background-color: white;
     font-size: 20px;
     color: black;
+    background-color: blanchedalmond;
     font-family: 'Teko', sans-serif;
 }
 h1{
@@ -12,6 +13,47 @@ h3{
     font-size: 26px;
     font-family: 'Acme', sans-serif;
 }
+
+.nav-menu{
+    text-align: center;
+    text-underline-position: alphabetic;
+    word-spacing: 50px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+header{
+    background-color: aquamarine;
+    width: 100%;
+}
+
+.first{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+    
+}
+
+.fire{
+    align-items: center;
+    margin-top: 5px;
+    color: black;
+    
+}
+
+.nav-menu a{
+    font-size: 21px;
+    color: firebrick;
+    cursor: pointer;
+    font-synthesis: weight;
+    transition: all .3s ease-in-out;
+}
+
+.nav-menu a:hover{
+    background-color: blue;
+}
+
 button{
     font-size: 16px;
     color: green;
@@ -22,3 +64,23 @@ button{
     text-align: left;
     cursor: pointer;
 }
+
+
+/* Introduction*/
+
+.intro{
+    text-align: center;
+    font-size: 23px;
+    height: 60vh;
+    width: 100vw;
+    background-image: url(intro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
