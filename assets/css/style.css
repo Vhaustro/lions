@@ -21,7 +21,6 @@ h3{
 }
 
 header{
-    background-color: aquamarine;
     width: 100%;
 }
 
@@ -42,14 +41,15 @@ header{
 
 .nav-menu a{
     font-size: 21px;
-    color: firebrick;
+    color: black;
     cursor: pointer;
     font-synthesis: weight;
     transition: all .3s ease-in-out;
 }
 
+
 .nav-menu a:hover{
-    background-color: blue;
+    color: white;
 }
 
 button{
@@ -87,10 +87,81 @@ button{
     text-decoration: none;
 }
 
+
+.work-pictures img{
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: all;
+    transition: all .5s ease-in-out;
+    border: 4px solid transparent;
+}
+
+.work-pictures img:hover{
+    filter: grayscale(0);
+    border: 4px solid #ffa801;
+    transform: scale(1.1);
+}
+
+.heimage img {
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: all;
+    transition: all .5s ease-in-out;
+    border: 2px solid transparent;
+}
+
+.heimage img:hover {
+    filter: grayscale(0);
+    border: 2px solid #fff;
+    transform: scale(0.92);
+}
+
 .behaa {
     text-decoration: none;
     text-align: center;
 }
 .container {
     color: white;
+}
+
+.brow img {
+     filter: grayscale(100%);
+    cursor: pointer;
+    transition: all;
+    transition: all .5s ease-in-out;
+    border: 2px solid transparent;
+}
+
+.brow img:hover {
+    filter: grayscale(0);
+    border: 2px solid #fff;
+    transform: scale(1.1);
+}
+
+.huti {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.huti:hover {
+    text-decoration: none;
+    color: black;
+    transition: .3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.conclu {
+    text-align: center;
+}
+
+.conclu:hover {
+    color: black;
+    transition: .3s ease-in-out;
+    transform: scale(1.012)
+}
+
+.fota {
+    text-align: right;
+    padding-right: 40px;
 }
